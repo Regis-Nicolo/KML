@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>La baie du Mont St-Michel.kml</name>
+	<Style id="inline210">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline300">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline010">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline300</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline210</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>La baie du Mont St-Michel</name>
+		<styleUrl>#inline010</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-1.497221817111744,48.68812690808188,0 -1.497177497755179,48.68795590361429,0 -1.49680008846405,48.68763159028609,0 -1.498229323567157,48.68707315662996,0 -1.500333423563414,48.68614705669977,0 -1.50101553112185,48.68581688498588,0 -1.50361329046128,48.68557916812118,0 -1.50746278555292,48.66130740646729,0 -1.510368590021884,48.65883865327499,0 -1.508757050125855,48.64758099014756,0 -1.508921118518397,48.63581222924515,0 -1.510043896678682,48.63513358296396,0 -1.510834147970407,48.63473373587887,0 -1.508403107286248,48.6357865994642,0 -1.510747701141831,48.64879883186531,0 -1.516288046866748,48.66044502203381,0 -1.504047297270821,48.68582968965225,0 -1.501112828901533,48.68575916322421,0 -1.49696923584712,48.68762288404673,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>
